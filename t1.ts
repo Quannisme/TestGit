@@ -3,6 +3,8 @@ const sum = (a: number, b: number) => {
 };
 
 const multiply = (a: number, b: number) => {
+  console.log(a, b);
+
   return a * b;
 };
 const devide = (a: number, b: number) => {
