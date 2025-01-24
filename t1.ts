@@ -2,10 +2,10 @@ const sum = (a: number, b: number) => {
   return a + b;
 };
 
-const multiply = (a: number, b: number) => {
+const multiply = (a: number, b: number,c:number) => {
   console.log(a, b);
 
-  return a * b;
+  return a * c ;
 };
 const devide = (a: number, b: number) => {
   return a % b;
